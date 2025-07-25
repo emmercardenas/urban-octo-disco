@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Te Amo ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🥰 Nuestro Amor 🥰</h1>
+    <p id="contador"></p>
+
+    <button onclick="mostrarFrase()">Siguiente frase</button>
+    <p id="frase" class="frase">Haz clic para ver algo lindo 💌</p>
+
+    <h2>🎁 Vales de amor</h2>
+<div class="vales-container">
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+  <div class="vale" onclick="mostrarVale(this)">💌</div>
+
+  <h2>🗓️ Calendario de recuerdos</h2>
+<div class="calendario">
+  <!-- Generamos los 12 meses -->
+  <div class="mes" onclick="seleccionarMes(0)">Enero</div>
+  <div class="mes" onclick="seleccionarMes(1)">Febrero</div>
+  <div class="mes" onclick="seleccionarMes(2)">Marzo</div>
+  <div class="mes" onclick="seleccionarMes(3)">Abril</div>
+  <div class="mes" onclick="seleccionarMes(4)">Mayo</div>
+  <div class="mes" onclick="seleccionarMes(5)">Junio</div>
+  <div class="mes" onclick="seleccionarMes(6)">Julio</div>
+  <div class="mes" onclick="seleccionarMes(7)">Agosto</div>
+  <div class="mes" onclick="seleccionarMes(8)">Septiembre</div>
+  <div class="mes" onclick="seleccionarMes(9)">Octubre</div>
+  <div class="mes" onclick="seleccionarMes(10)">Noviembre</div>
+  <div class="mes" onclick="seleccionarMes(11)">Diciembre</div>
+</div>
+
+<input type="file" id="fotoInput" accept="image/*" style="display: none;">
+
+</div>
+
+
+
+
+  </div>
+
+  <canvas id="corazones"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
